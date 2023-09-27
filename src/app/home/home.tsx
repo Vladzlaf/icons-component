@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 import IconsComponent from '../icon-component/icon-component';
 
 const styles = StyleSheet.create({

@@ -1,4 +1,5 @@
 import ChildcareIcon from '../assets/icons/child-care';
+import GovernmentIcon from '../assets/icons/government-icon';
 import AutoLeasePaymentIcon from '../assets/icons/lease';
 import AutoLoanRepayment from '../assets/icons/loan';
 import SelfCare from '../assets/icons/self-care';
@@ -16,6 +17,9 @@ const getIconComponent = (icon: Icons) => {
     case Icons.SaasTools:
     case Icons.RentToOwn:
       return SelfCare;
+    case Icons.Government:
+      return GovernmentIcon;
+
     default:
       return null;
   }

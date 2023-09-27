@@ -12,6 +12,7 @@ const IconsComponent: React.FC = () => {
       <CategoryConponent icon={Icons.SelfCare} />
       <CategoryConponent icon={Icons.RentToOwn} />
       <CategoryConponent icon={Icons.SaasTools} />
+      <CategoryConponent icon={Icons.Government} />
     </View>
   );
 };
