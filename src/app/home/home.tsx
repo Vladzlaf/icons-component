@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, StyleSheet} from 'react-native';
-import IconComponent from '../icon-component/icon-comp';
+import IconsComponent from '../icon-component/icon-component';
 
 const styles = StyleSheet.create({
   container: {
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
 const Home: React.FC = () => {
   return (
     <View style={styles.container}>
-      <IconComponent />
+      <IconsComponent />
     </View>
   );
 };
