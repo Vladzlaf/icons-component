@@ -1,7 +1,7 @@
 import React from 'react';
 import Svg, {Path} from 'react-native-svg';
 
-const SelfCare = () => {
+const DollarIcon = () => {
   return (
     <Svg width="20" height="20" viewBox="0 0 20 20" fill="none">
       <Path
@@ -14,4 +14,4 @@ const SelfCare = () => {
   );
 };
 
-export default SelfCare;
+export default DollarIcon;
