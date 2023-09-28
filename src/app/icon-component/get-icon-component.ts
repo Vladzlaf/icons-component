@@ -1,8 +1,8 @@
 import ChildcareIcon from '../assets/icons/child-care';
+import DollarIcon from '../assets/icons/dollar-icon';
 import GovernmentIcon from '../assets/icons/government-icon';
 import AutoLeasePaymentIcon from '../assets/icons/lease';
 import AutoLoanRepayment from '../assets/icons/loan';
-import SelfCare from '../assets/icons/self-care';
 import {Icons} from '../enums/icons';
 
 const getIconComponent = (icon: Icons) => {
@@ -16,7 +16,17 @@ const getIconComponent = (icon: Icons) => {
     case Icons.SelfCare:
     case Icons.SaasTools:
     case Icons.RentToOwn:
-      return SelfCare;
+    case Icons.BuyNowPayLater:
+    case Icons.DepartmentAndDiscountStores:
+    case Icons.Investment:
+    case Icons.OtherConsumerServices:
+    case Icons.OtherNonEssential:
+    case Icons.RecreationalGoods:
+    case Icons.GrantsAndStipends:
+    case Icons.Loans:
+    case Icons.Other:
+    case Icons.Prenote:
+      return DollarIcon;
     case Icons.Government:
       return GovernmentIcon;
 
