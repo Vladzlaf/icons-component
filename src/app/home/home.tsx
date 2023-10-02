@@ -1,12 +1,13 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import SavingsComponent from '../average-save/average-save-component';
+import IncomeComponent from '../income/income';
+import PlannedComponent from '../planned/planned-compnent';
 
 const styles = StyleSheet.create({
   container: {
-    display: 'flex',
-    justifyContent: 'center',
-    flexDirection: 'row',
+    flexDirection: 'column',
+    alignItems: 'flex-start',
+    gap: 30,
     padding: 30,
     backgroundColor: '#000',
     height: '100%',
@@ -16,7 +17,8 @@ const styles = StyleSheet.create({
 const Home: React.FC = () => {
   return (
     <View style={styles.container}>
-      <SavingsComponent />
+      <IncomeComponent />
+      <PlannedComponent />
     </View>
   );
 };

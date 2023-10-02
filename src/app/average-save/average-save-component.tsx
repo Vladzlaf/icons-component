@@ -1,8 +1,8 @@
 import React from 'react';
 import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import FilterIcon from './assets/filter-icon';
-import EditIcon from './assets/edit-icon copy';
 import {LinearProgress, Text} from '@rneui/themed';
+import EditWhiteIcon from './assets/edit-white-icon copy';
 
 const SavingsComponent = () => {
   return (
@@ -49,9 +49,14 @@ const SavingsComponent = () => {
               style={{
                 flexDirection: 'row',
                 alignItems: 'center',
+                marginTop: 83,
               }}>
-              <FilterIcon />
-              <Text t4 style={{color: '#FFFFFFCC', paddingLeft: 7}}>
+              <TouchableOpacity>
+                <FilterIcon />
+              </TouchableOpacity>
+              <Text
+                t4
+                style={{color: '#FFFFFFCC', paddingLeft: 7, lineHeight: 18}}>
                 Filters
               </Text>
             </View>
@@ -88,7 +93,7 @@ const SavingsComponent = () => {
               <View
                 style={{flexDirection: 'row', alignItems: 'center', gap: 12}}>
                 <TouchableOpacity>
-                  <EditIcon />
+                  <EditWhiteIcon />
                 </TouchableOpacity>
                 <TouchableOpacity
                   style={{
@@ -152,7 +157,7 @@ const SavingsComponent = () => {
               <View
                 style={{flexDirection: 'row', alignItems: 'center', gap: 12}}>
                 <TouchableOpacity>
-                  <EditIcon />
+                  <EditWhiteIcon />
                 </TouchableOpacity>
                 <TouchableOpacity
                   style={{
@@ -209,18 +214,17 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: -31,
     width: 350,
-    height: 98,
     flexShrink: 0,
     borderRadius: 24,
     backgroundColor: '#391090',
     paddingLeft: 20,
     paddingRight: 20,
     paddingTop: 20,
+    paddingBottom: 19,
     zIndex: 1,
   },
   secondContainer: {
     width: 350,
-    height: 366,
     borderRadius: 24,
     backgroundColor: '#6434CB',
     paddingLeft: 20,
