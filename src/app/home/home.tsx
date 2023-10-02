@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import IconsComponent from '../icon-component/icon-component';
+import SavingsComponent from '../average-save/average-save-component';
 
 const styles = StyleSheet.create({
   container: {
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
 const Home: React.FC = () => {
   return (
     <View style={styles.container}>
-      <IconsComponent />
+      <SavingsComponent />
     </View>
   );
 };
