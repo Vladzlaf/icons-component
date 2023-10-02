@@ -87,7 +87,9 @@ const SavingsComponent = () => {
               </View>
               <View
                 style={{flexDirection: 'row', alignItems: 'center', gap: 12}}>
-                <EditIcon />
+                <TouchableOpacity>
+                  <EditIcon />
+                </TouchableOpacity>
                 <TouchableOpacity
                   style={{
                     width: 59,
@@ -149,7 +151,9 @@ const SavingsComponent = () => {
               </View>
               <View
                 style={{flexDirection: 'row', alignItems: 'center', gap: 12}}>
-                <EditIcon />
+                <TouchableOpacity>
+                  <EditIcon />
+                </TouchableOpacity>
                 <TouchableOpacity
                   style={{
                     width: 59,
