@@ -8,16 +8,18 @@ const SavingsComponent = () => {
   return (
     <View>
       <View style={styles.firstContainer}>
-        <Text h5 style={{color: 'white'}}>
+        <Text t2 style={{color: '#FFFFFFCC'}}>
           Average Savings For 6 Months
         </Text>
         <Text
-          h5
+          h6
           style={{
             color: '#FFF',
             fontSize: 26,
             fontStyle: 'normal',
-            fontWeight: '700',
+            lineHeight: 26,
+            textAlign: 'left',
+            marginTop: 14,
           }}>
           $783,00
         </Text>
@@ -29,18 +31,17 @@ const SavingsComponent = () => {
               flexDirection: 'row',
               justifyContent: 'space-between',
               alignItems: 'center',
-              marginTop: 80,
               borderBottomWidth: 1,
               borderColor: 'rgba(255, 255, 255, 0.15)',
-              paddingBottom: 10,
             }}>
             <Text
-              h5
+              h6
               style={{
                 fontSize: 20,
-                fontWeight: '700',
-                fontStyle: 'normal',
                 lineHeight: 20,
+                color: '#FFFFFF',
+                marginTop: 83,
+                marginBottom: 8,
               }}>
               Saving Plans
             </Text>
@@ -74,19 +75,18 @@ const SavingsComponent = () => {
                 <Text
                   h5
                   style={{
-                    fontSize: 20,
-                    fontWeight: '700',
+                    fontSize: 16,
                     fontStyle: 'normal',
-                    lineHeight: 20,
-                    color: '#FFFFFF',
+                    lineHeight: 16,
                   }}>
                   Roof Replacement
                 </Text>
-                <Text t2 style={{marginTop: 2}}>
+                <Text t2 style={{marginTop: 2, fontSize: 12}}>
                   Monthly Saving Target: $250,00
                 </Text>
               </View>
-              <View style={{flexDirection: 'row', alignItems: 'center'}}>
+              <View
+                style={{flexDirection: 'row', alignItems: 'center', gap: 12}}>
                 <EditIcon />
                 <TouchableOpacity
                   style={{
@@ -97,7 +97,9 @@ const SavingsComponent = () => {
                     alignItems: 'center',
                     justifyContent: 'center',
                   }}>
-                  <Text t2>Add +</Text>
+                  <Text t2 style={{fontSize: 14}}>
+                    Add +
+                  </Text>
                 </TouchableOpacity>
               </View>
             </View>
@@ -106,11 +108,12 @@ const SavingsComponent = () => {
                 flexDirection: 'row',
                 alignItems: 'center',
                 justifyContent: 'space-between',
+                marginTop: 10,
               }}>
-              <Text h5 style={{marginTop: 10}}>
+              <Text h5 style={{fontSize: 14}}>
                 $16,200
               </Text>
-              <Text h5 style={{}}>
+              <Text h5 style={{fontSize: 14}}>
                 Target: $20,000
               </Text>
             </View>
@@ -131,12 +134,21 @@ const SavingsComponent = () => {
                 marginTop: 13,
               }}>
               <View>
-                <Text style={styles.secondTitle}>House Repairs</Text>
-                <Text t5 h3Style={{fontSize: 14, lineHeight: 19, marginTop: 2}}>
+                <Text
+                  h5
+                  style={{
+                    fontSize: 16,
+                    fontStyle: 'normal',
+                    lineHeight: 16,
+                  }}>
+                  House Repairs
+                </Text>
+                <Text t2 style={{marginTop: 2, fontSize: 12}}>
                   Monthly Saving Target: $250,00
                 </Text>
               </View>
-              <View style={{flexDirection: 'row', alignItems: 'center'}}>
+              <View
+                style={{flexDirection: 'row', alignItems: 'center', gap: 12}}>
                 <EditIcon />
                 <TouchableOpacity
                   style={{
@@ -147,7 +159,9 @@ const SavingsComponent = () => {
                     alignItems: 'center',
                     justifyContent: 'center',
                   }}>
-                  <Text t2>Add +</Text>
+                  <Text t2 style={{fontSize: 14}}>
+                    Add +
+                  </Text>
                 </TouchableOpacity>
               </View>
             </View>
@@ -158,10 +172,10 @@ const SavingsComponent = () => {
                 justifyContent: 'space-between',
                 marginTop: 10,
               }}>
-              <Text h5 style={{}}>
+              <Text h5 style={{fontSize: 14}}>
                 $2,150
               </Text>
-              <Text h5 style={{}}>
+              <Text h5 style={{fontSize: 14}}>
                 Target: $8,500
               </Text>
             </View>
@@ -171,6 +185,7 @@ const SavingsComponent = () => {
           </View>
           <TouchableOpacity style={{alignItems: 'center'}}>
             <Text
+              h5
               style={{
                 marginTop: 20,
                 textDecorationLine: 'underline',
@@ -188,12 +203,15 @@ const SavingsComponent = () => {
 const styles = StyleSheet.create({
   firstContainer: {
     position: 'absolute',
+    top: -31,
     width: 350,
     height: 98,
     flexShrink: 0,
     borderRadius: 24,
     backgroundColor: '#391090',
-    padding: 20,
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingTop: 20,
     zIndex: 1,
   },
   secondContainer: {
@@ -201,8 +219,9 @@ const styles = StyleSheet.create({
     height: 366,
     borderRadius: 24,
     backgroundColor: '#6434CB',
-    padding: 20,
-    marginTop: 20,
+    paddingLeft: 20,
+    paddingRight: 20,
+    paddingBottom: 16,
   },
   title: {
     color: '#FFFFFF',

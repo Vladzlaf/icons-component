@@ -3,7 +3,7 @@ import Svg, {Defs, G, Path} from 'react-native-svg';
 
 const EditIcon = () => {
   return (
-    <Svg width="19" height="20" viewBox="0 0 19 20" fill="none">
+    <Svg width="19" height="20" viewBox="0 0 19 12" fill="none">
       <G filter="url(#filter0_d_25_1420)">
         <Path
           fillRule="evenodd"
