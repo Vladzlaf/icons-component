@@ -91,7 +91,7 @@ const PlannedComponent = () => {
               </View>
             </View>
           </View>
-          <View>
+          <View style={{width: '100%'}}>
             <LinearProgress style={{height: 1}} />
           </View>
           <View
@@ -161,7 +161,7 @@ const PlannedComponent = () => {
               </View>
             </View>
           </View>
-          <View>
+          <View style={{width: '100%'}}>
             <LinearProgress style={{height: 1}} />
           </View>
           <View

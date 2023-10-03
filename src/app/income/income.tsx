@@ -6,6 +6,17 @@ import EditWhiteIcon from '../average-save/assets/edit-white-icon copy';
 const IncomeComponent = () => {
   return (
     <View>
+      <Text
+        h6
+        style={{
+          fontSize: 20,
+          color: '#FFF',
+          lineHeight: 20,
+          textAlign: 'left',
+          paddingBottom: 16,
+        }}>
+        Income
+      </Text>
       <View style={styles.firstContainer}>
         <View>
           <Text
@@ -107,7 +118,7 @@ const IncomeComponent = () => {
 const styles = StyleSheet.create({
   firstContainer: {
     position: 'absolute',
-    top: -10,
+    top: 26,
     width: 350,
     flexDirection: 'row',
     justifyContent: 'space-between',
