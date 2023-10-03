@@ -6,7 +6,7 @@ import EditWhiteIcon from './assets/edit-white-icon copy';
 
 const SavingsComponent = () => {
   return (
-    <View>
+    <View style={{width: '100%'}}>
       <View style={styles.firstContainer}>
         <Text t2 style={{color: '#FFFFFFCC'}}>
           Average Savings For 6 Months
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
   firstContainer: {
     position: 'absolute',
     top: -31,
-    width: 350,
+    width: '100%',
     flexShrink: 0,
     borderRadius: 24,
     backgroundColor: '#391090',
@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
   secondContainer: {
-    width: 350,
+    width: '100%',
     borderRadius: 24,
     backgroundColor: '#6434CB',
     paddingLeft: 20,

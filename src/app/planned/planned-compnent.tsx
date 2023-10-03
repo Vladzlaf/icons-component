@@ -318,14 +318,19 @@ const PlannedComponent = () => {
           </View>
         </View>
       </View>
-      <View style={{flexDirection: 'row', gap: 14, flexWrap: 'wrap'}}>
+      <View
+        style={{
+          flexDirection: 'row',
+          gap: 14,
+          width: '100%',
+        }}>
         <View
           style={{
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'center',
-            width: 168,
-            height: 91,
+            width: '48%',
+            height: '100%',
             borderRadius: 16,
             backgroundColor: '#C0A3FF',
             paddingTop: 16,
@@ -376,7 +381,7 @@ const PlannedComponent = () => {
             flexDirection: 'row',
             alignItems: 'center',
             justifyContent: 'space-between',
-            width: 168,
+            width: '48%',
             height: 91,
             borderRadius: 16,
             backgroundColor: '#C0A3FF',

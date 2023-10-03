@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
 import IncomeComponent from '../income/income';
-import PlannedComponent from '../planned/planned-compnent';
+import SavingsComponent from '../average-save/average-save-component';
 
 const styles = StyleSheet.create({
   container: {
@@ -18,7 +18,7 @@ const Home: React.FC = () => {
   return (
     <View style={styles.container}>
       <IncomeComponent />
-      <PlannedComponent />
+      <SavingsComponent />
     </View>
   );
 };
