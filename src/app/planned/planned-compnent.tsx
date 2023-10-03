@@ -40,7 +40,7 @@ const PlannedComponent = () => {
                   lineHeight: 21,
                   textAlign: 'left',
                 }}>
-                Food & Drink
+                Mortgage
               </Text>
               <Text
                 t4
@@ -50,7 +50,7 @@ const PlannedComponent = () => {
                   fontStyle: 'normal',
                   lineHeight: 16,
                 }}>
-                $704 Last month
+                $1,200 Last month
               </Text>
             </View>
             <View>
@@ -63,7 +63,7 @@ const PlannedComponent = () => {
                   lineHeight: 19,
                   textAlign: 'right',
                 }}>
-                $872
+                $1,200
               </Text>
               <View
                 style={{
@@ -180,7 +180,7 @@ const PlannedComponent = () => {
                   lineHeight: 21,
                   textAlign: 'left',
                 }}>
-                Food & Drink
+                Groceries
               </Text>
               <Text
                 t4
@@ -190,7 +190,7 @@ const PlannedComponent = () => {
                   fontStyle: 'normal',
                   lineHeight: 16,
                 }}>
-                $704 Last month
+                $484 Last month
               </Text>
             </View>
             <View>
@@ -203,7 +203,7 @@ const PlannedComponent = () => {
                   lineHeight: 19,
                   textAlign: 'right',
                 }}>
-                $872
+                $573
               </Text>
               <View
                 style={{
@@ -381,7 +381,7 @@ const PlannedComponent = () => {
             borderRadius: 16,
             backgroundColor: '#C0A3FF',
             paddingTop: 16,
-            paddingRight: 23,
+            paddingRight: 16,
             paddingBottom: 16,
             paddingLeft: 20,
           }}>
@@ -392,10 +392,10 @@ const PlannedComponent = () => {
                 opacity: 0.6,
                 fontSize: 12,
                 fontStyle: 'normal',
-                lineHeight: 12,
+                lineHeight: 16,
                 color: '#391090',
               }}>
-              Total Monthly
+              Money
             </Text>
             <Text
               t5
@@ -403,10 +403,10 @@ const PlannedComponent = () => {
                 opacity: 0.6,
                 fontSize: 12,
                 fontStyle: 'normal',
-                lineHeight: 12,
+                lineHeight: 16,
                 color: '#391090',
               }}>
-              Budgeted Spend
+              Left Over
             </Text>
             <Text
               h6
@@ -417,7 +417,7 @@ const PlannedComponent = () => {
                 textAlign: 'left',
                 marginTop: 4,
               }}>
-              $12,531
+              $2,177
             </Text>
           </View>
           <DollarBlueIcon />
