@@ -7,7 +7,7 @@ import DollarBlueIcon from '../assets/icons/dollar-blue-icon ';
 
 const PlannedComponent = () => {
   return (
-    <View style={{gap: 72 + 14}}>
+    <View style={{gap: 72 + 14, width: '100%'}}>
       <View>
         <Text
           h6
@@ -430,7 +430,7 @@ const PlannedComponent = () => {
 
 const styles = StyleSheet.create({
   firstContainer: {
-    width: 350,
+    width: '100%',
     flexDirection: 'column',
     borderRadius: 24,
     backgroundColor: '#6434CB',
@@ -445,7 +445,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     alignItems: 'center',
     bottom: -72,
-    width: 350,
+    width: '100%',
     flexDirection: 'row',
     borderRadius: 24,
     backgroundColor: '#C0A3FF',

@@ -5,7 +5,7 @@ import EditWhiteIcon from '../average-save/assets/edit-white-icon copy';
 
 const IncomeComponent = () => {
   return (
-    <View>
+    <View style={{width: '100%'}}>
       <Text
         h6
         style={{
@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
   firstContainer: {
     position: 'absolute',
     top: 26,
-    width: 350,
+    width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-between',
     borderRadius: 24,
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
   secondContainer: {
-    width: 350,
+    width: '100%',
     borderRadius: 24,
     backgroundColor: '#C0A3FF',
     paddingBottom: 10,
