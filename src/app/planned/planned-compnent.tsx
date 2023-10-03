@@ -250,6 +250,7 @@ const PlannedComponent = () => {
             style={{
               flexDirection: 'row',
               justifyContent: 'space-between',
+              alignItems: 'center',
               width: '100%',
               marginTop: 74,
             }}>
@@ -262,7 +263,6 @@ const PlannedComponent = () => {
                   fontStyle: 'normal',
                   lineHeight: 21,
                   textAlign: 'left',
-                  marginTop: 8,
                 }}>
                 Everything Else
               </Text>
@@ -287,15 +287,15 @@ const PlannedComponent = () => {
                   lineHeight: 19,
                   textAlign: 'right',
                 }}>
-                $872
+                $8,200
               </Text>
               <View
                 style={{
                   justifyContent: 'flex-end',
                   flexDirection: 'row',
                   alignItems: 'center',
-                  marginTop: 8,
-                  paddingBottom: 16,
+                  paddingTop: 8,
+                  paddingBottom: 11,
                 }}>
                 <TouchableOpacity>
                   <EditBlueIcon />
@@ -443,6 +443,7 @@ const styles = StyleSheet.create({
   },
   secondContainer: {
     position: 'absolute',
+    alignItems: 'center',
     bottom: -72,
     width: 350,
     flexDirection: 'row',
