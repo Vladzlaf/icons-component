@@ -413,7 +413,7 @@ const PlannedComponent = () => {
               style={{
                 fontSize: 18,
                 color: '#391090',
-                lineHeight: 18,
+                lineHeight: 23,
                 textAlign: 'left',
                 marginTop: 4,
               }}>
