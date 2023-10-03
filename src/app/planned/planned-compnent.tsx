@@ -3,303 +3,426 @@ import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import {LinearProgress, Text} from '@rneui/themed';
 import EditWhiteIcon from '../average-save/assets/edit-white-icon copy';
 import EditBlueIcon from '../average-save/assets/edit-blue-icon';
+import DollarBlueIcon from '../assets/icons/dollar-blue-icon ';
 
 const PlannedComponent = () => {
   return (
-    <View>
-      <View style={styles.firstContainer}>
-        <View
+    <View style={{gap: 72 + 14}}>
+      <View>
+        <Text
+          h6
           style={{
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            width: '100%',
+            fontSize: 20,
+            color: '#FFF',
+            lineHeight: 20,
+            textAlign: 'left',
           }}>
-          <View>
-            <Text
-              t8
-              style={{
-                color: '#FFF',
-                fontSize: 16,
-                fontStyle: 'normal',
-                lineHeight: 21,
-                textAlign: 'left',
-              }}>
-              Food & Drink
-            </Text>
-            <Text
-              t4
-              style={{
-                color: '#FFFFFFCC',
-                fontSize: 12,
-                fontStyle: 'normal',
-                lineHeight: 16,
-              }}>
-              $704 Last month
-            </Text>
+          Planned Spend
+        </Text>
+        <Text t4 style={{color: '#FFF', marginBottom: 6}}>
+          Assigned Categories
+        </Text>
+
+        <View style={styles.firstContainer}>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              width: '100%',
+            }}>
+            <View>
+              <Text
+                t8
+                style={{
+                  color: '#FFF',
+                  fontSize: 16,
+                  fontStyle: 'normal',
+                  lineHeight: 21,
+                  textAlign: 'left',
+                }}>
+                Food & Drink
+              </Text>
+              <Text
+                t4
+                style={{
+                  color: '#FFFFFFCC',
+                  fontSize: 12,
+                  fontStyle: 'normal',
+                  lineHeight: 16,
+                }}>
+                $704 Last month
+              </Text>
+            </View>
+            <View>
+              <Text
+                t8
+                style={{
+                  color: '#FFF',
+                  fontSize: 18,
+                  fontStyle: 'normal',
+                  lineHeight: 19,
+                  textAlign: 'right',
+                }}>
+                $872
+              </Text>
+              <View
+                style={{
+                  justifyContent: 'flex-end',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginTop: 8,
+                }}>
+                <TouchableOpacity>
+                  <EditWhiteIcon />
+                </TouchableOpacity>
+                <TouchableOpacity>
+                  <Text
+                    t4
+                    style={{
+                      color: '#FFFFFFCC',
+                      fontSize: 14,
+                      fontStyle: 'normal',
+                      lineHeight: 18,
+                      marginLeft: 6,
+                    }}>
+                    Edit
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
           </View>
           <View>
-            <Text
-              t8
-              style={{
-                color: '#FFF',
-                fontSize: 18,
-                fontStyle: 'normal',
-                lineHeight: 19,
-                textAlign: 'right',
-              }}>
-              $872
+            <LinearProgress style={{height: 1}} />
+          </View>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              width: '100%',
+            }}>
+            <View>
+              <Text
+                t8
+                style={{
+                  color: '#FFF',
+                  fontSize: 16,
+                  fontStyle: 'normal',
+                  lineHeight: 21,
+                  textAlign: 'left',
+                }}>
+                Food & Drink
+              </Text>
+              <Text
+                t4
+                style={{
+                  color: '#FFFFFFCC',
+                  fontSize: 12,
+                  fontStyle: 'normal',
+                  lineHeight: 16,
+                }}>
+                $704 Last month
+              </Text>
+            </View>
+            <View>
+              <Text
+                t8
+                style={{
+                  color: '#FFF',
+                  fontSize: 18,
+                  fontStyle: 'normal',
+                  lineHeight: 19,
+                  textAlign: 'right',
+                }}>
+                $872
+              </Text>
+              <View
+                style={{
+                  justifyContent: 'flex-end',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginTop: 8,
+                }}>
+                <TouchableOpacity>
+                  <EditWhiteIcon />
+                </TouchableOpacity>
+                <TouchableOpacity>
+                  <Text
+                    t4
+                    style={{
+                      color: '#FFFFFFCC',
+                      fontSize: 14,
+                      fontStyle: 'normal',
+                      lineHeight: 18,
+                      marginLeft: 6,
+                    }}>
+                    Edit
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+          <View>
+            <LinearProgress style={{height: 1}} />
+          </View>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              width: '100%',
+            }}>
+            <View>
+              <Text
+                t8
+                style={{
+                  color: '#FFF',
+                  fontSize: 16,
+                  fontStyle: 'normal',
+                  lineHeight: 21,
+                  textAlign: 'left',
+                }}>
+                Food & Drink
+              </Text>
+              <Text
+                t4
+                style={{
+                  color: '#FFFFFFCC',
+                  fontSize: 12,
+                  fontStyle: 'normal',
+                  lineHeight: 16,
+                }}>
+                $704 Last month
+              </Text>
+            </View>
+            <View>
+              <Text
+                t8
+                style={{
+                  color: '#FFF',
+                  fontSize: 18,
+                  fontStyle: 'normal',
+                  lineHeight: 19,
+                  textAlign: 'right',
+                }}>
+                $872
+              </Text>
+              <View
+                style={{
+                  justifyContent: 'flex-end',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginTop: 8,
+                }}>
+                <TouchableOpacity>
+                  <EditWhiteIcon />
+                </TouchableOpacity>
+                <TouchableOpacity>
+                  <Text
+                    t4
+                    style={{
+                      color: '#FFFFFFCC',
+                      fontSize: 14,
+                      fontStyle: 'normal',
+                      lineHeight: 18,
+                      marginLeft: 6,
+                    }}>
+                    Edit
+                  </Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </View>
+          <TouchableOpacity
+            style={{
+              width: 326,
+              height: 48,
+              borderRadius: 24,
+              backgroundColor: '#A285E0',
+              justifyContent: 'center',
+              marginBottom: 16,
+            }}>
+            <Text h6 style={{fontSize: 16, lineHeight: 18, color: '#FFF'}}>
+              +Add a Category
             </Text>
-            <View
-              style={{
-                justifyContent: 'flex-end',
-                flexDirection: 'row',
-                alignItems: 'center',
-                marginTop: 8,
-              }}>
-              <TouchableOpacity>
-                <EditWhiteIcon />
-              </TouchableOpacity>
-              <TouchableOpacity>
-                <Text
-                  t4
-                  style={{
-                    color: '#FFFFFFCC',
-                    fontSize: 14,
-                    fontStyle: 'normal',
-                    lineHeight: 18,
-                    marginLeft: 6,
-                  }}>
-                  Edit
-                </Text>
-              </TouchableOpacity>
+          </TouchableOpacity>
+        </View>
+        <View style={styles.secondContainer}>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              width: '100%',
+              marginTop: 74,
+            }}>
+            <View>
+              <Text
+                t8
+                style={{
+                  color: '#6434CB',
+                  fontSize: 16,
+                  fontStyle: 'normal',
+                  lineHeight: 21,
+                  textAlign: 'left',
+                  marginTop: 8,
+                }}>
+                Everything Else
+              </Text>
+              <Text
+                t4
+                style={{
+                  color: '#6434CB',
+                  fontSize: 12,
+                  fontStyle: 'normal',
+                  lineHeight: 16,
+                }}>
+                $5,631 Last month
+              </Text>
+            </View>
+            <View>
+              <Text
+                t8
+                style={{
+                  color: '#6434CB',
+                  fontSize: 18,
+                  fontStyle: 'normal',
+                  lineHeight: 19,
+                  textAlign: 'right',
+                }}>
+                $872
+              </Text>
+              <View
+                style={{
+                  justifyContent: 'flex-end',
+                  flexDirection: 'row',
+                  alignItems: 'center',
+                  marginTop: 8,
+                  paddingBottom: 16,
+                }}>
+                <TouchableOpacity>
+                  <EditBlueIcon />
+                </TouchableOpacity>
+                <TouchableOpacity>
+                  <Text
+                    t4
+                    style={{
+                      color: '#6434CB',
+                      fontSize: 14,
+                      fontStyle: 'normal',
+                      lineHeight: 18,
+                      marginLeft: 6,
+                    }}>
+                    Edit
+                  </Text>
+                </TouchableOpacity>
+              </View>
             </View>
           </View>
         </View>
-        <View>
-          <LinearProgress style={{height: 1}} />
-        </View>
-        <View
-          style={{
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            width: '100%',
-          }}>
-          <View>
-            <Text
-              t8
-              style={{
-                color: '#FFF',
-                fontSize: 16,
-                fontStyle: 'normal',
-                lineHeight: 21,
-                textAlign: 'left',
-              }}>
-              Food & Drink
-            </Text>
-            <Text
-              t4
-              style={{
-                color: '#FFFFFFCC',
-                fontSize: 12,
-                fontStyle: 'normal',
-                lineHeight: 16,
-              }}>
-              $704 Last month
-            </Text>
-          </View>
-          <View>
-            <Text
-              t8
-              style={{
-                color: '#FFF',
-                fontSize: 18,
-                fontStyle: 'normal',
-                lineHeight: 19,
-                textAlign: 'right',
-              }}>
-              $872
-            </Text>
-            <View
-              style={{
-                justifyContent: 'flex-end',
-                flexDirection: 'row',
-                alignItems: 'center',
-                marginTop: 8,
-              }}>
-              <TouchableOpacity>
-                <EditWhiteIcon />
-              </TouchableOpacity>
-              <TouchableOpacity>
-                <Text
-                  t4
-                  style={{
-                    color: '#FFFFFFCC',
-                    fontSize: 14,
-                    fontStyle: 'normal',
-                    lineHeight: 18,
-                    marginLeft: 6,
-                  }}>
-                  Edit
-                </Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        </View>
-        <View>
-          <LinearProgress style={{height: 1}} />
-        </View>
-        <View
-          style={{
-            flexDirection: 'row',
-            justifyContent: 'space-between',
-            width: '100%',
-          }}>
-          <View>
-            <Text
-              t8
-              style={{
-                color: '#FFF',
-                fontSize: 16,
-                fontStyle: 'normal',
-                lineHeight: 21,
-                textAlign: 'left',
-              }}>
-              Food & Drink
-            </Text>
-            <Text
-              t4
-              style={{
-                color: '#FFFFFFCC',
-                fontSize: 12,
-                fontStyle: 'normal',
-                lineHeight: 16,
-              }}>
-              $704 Last month
-            </Text>
-          </View>
-          <View>
-            <Text
-              t8
-              style={{
-                color: '#FFF',
-                fontSize: 18,
-                fontStyle: 'normal',
-                lineHeight: 19,
-                textAlign: 'right',
-              }}>
-              $872
-            </Text>
-            <View
-              style={{
-                justifyContent: 'flex-end',
-                flexDirection: 'row',
-                alignItems: 'center',
-                marginTop: 8,
-              }}>
-              <TouchableOpacity>
-                <EditWhiteIcon />
-              </TouchableOpacity>
-              <TouchableOpacity>
-                <Text
-                  t4
-                  style={{
-                    color: '#FFFFFFCC',
-                    fontSize: 14,
-                    fontStyle: 'normal',
-                    lineHeight: 18,
-                    marginLeft: 6,
-                  }}>
-                  Edit
-                </Text>
-              </TouchableOpacity>
-            </View>
-          </View>
-        </View>
-        <TouchableOpacity
-          style={{
-            width: 326,
-            height: 48,
-            borderRadius: 24,
-            backgroundColor: '#A285E0',
-            justifyContent: 'center',
-            marginBottom: 16,
-          }}>
-          <Text h6 style={{fontSize: 16, lineHeight: 18, color: '#FFF'}}>
-            +Add a Category
-          </Text>
-        </TouchableOpacity>
       </View>
-      <View style={styles.secondContainer}>
+      <View style={{flexDirection: 'row', gap: 14, flexWrap: 'wrap'}}>
         <View
           style={{
             flexDirection: 'row',
-            justifyContent: 'space-between',
-            width: '100%',
-            marginTop: 74,
+            alignItems: 'center',
+            justifyContent: 'center',
+            width: 168,
+            height: 91,
+            borderRadius: 16,
+            backgroundColor: '#C0A3FF',
+            paddingTop: 16,
+            paddingRight: 23,
+            paddingBottom: 16,
+            paddingLeft: 20,
+            gap: 6,
           }}>
           <View>
             <Text
-              t8
+              t5
               style={{
-                color: '#6434CB',
-                fontSize: 16,
-                fontStyle: 'normal',
-                lineHeight: 21,
-                textAlign: 'left',
-                marginTop: 8,
-              }}>
-              Everything Else
-            </Text>
-            <Text
-              t4
-              style={{
-                color: '#6434CB',
+                opacity: 0.6,
                 fontSize: 12,
                 fontStyle: 'normal',
                 lineHeight: 16,
+                color: '#391090',
               }}>
-              $5,631 Last month
+              Total Monthly
+            </Text>
+            <Text
+              t5
+              style={{
+                opacity: 0.6,
+                fontSize: 12,
+                fontStyle: 'normal',
+                lineHeight: 16,
+                color: '#391090',
+              }}>
+              Budgeted Spend
+            </Text>
+            <Text
+              h6
+              style={{
+                fontSize: 18,
+                color: '#391090',
+                lineHeight: 23,
+                textAlign: 'left',
+                marginTop: 4,
+              }}>
+              $12,531
             </Text>
           </View>
+          <DollarBlueIcon />
+        </View>
+        <View
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            width: 168,
+            height: 91,
+            borderRadius: 16,
+            backgroundColor: '#C0A3FF',
+            paddingTop: 16,
+            paddingRight: 23,
+            paddingBottom: 16,
+            paddingLeft: 20,
+          }}>
           <View>
             <Text
-              t8
+              t5
               style={{
-                color: '#6434CB',
-                fontSize: 18,
+                opacity: 0.6,
+                fontSize: 12,
                 fontStyle: 'normal',
-                lineHeight: 19,
-                textAlign: 'right',
+                lineHeight: 12,
+                color: '#391090',
               }}>
-              $872
+              Total Monthly
             </Text>
-            <View
+            <Text
+              t5
               style={{
-                justifyContent: 'flex-end',
-                flexDirection: 'row',
-                alignItems: 'center',
-                marginTop: 8,
-                paddingBottom: 16,
+                opacity: 0.6,
+                fontSize: 12,
+                fontStyle: 'normal',
+                lineHeight: 12,
+                color: '#391090',
               }}>
-              <TouchableOpacity>
-                <EditBlueIcon />
-              </TouchableOpacity>
-              <TouchableOpacity>
-                <Text
-                  t4
-                  style={{
-                    color: '#6434CB',
-                    fontSize: 14,
-                    fontStyle: 'normal',
-                    lineHeight: 18,
-                    marginLeft: 6,
-                  }}>
-                  Edit
-                </Text>
-              </TouchableOpacity>
-            </View>
+              Budgeted Spend
+            </Text>
+            <Text
+              h6
+              style={{
+                fontSize: 18,
+                color: '#391090',
+                lineHeight: 18,
+                textAlign: 'left',
+                marginTop: 4,
+              }}>
+              $12,531
+            </Text>
           </View>
+          <DollarBlueIcon />
         </View>
+        <View />
       </View>
     </View>
   );
